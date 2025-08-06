@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Venono Editing Course</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #111;
+      --accent: #00ff99;
+      --text: #eee;
+      --sec-bg: #1a1a1a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Poppins', sans-serif; line-height: 1.5; }
+    a { color: var(--accent); text-decoration: none; }
+    header { background: var(--sec-bg); text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 2.8rem; color: var(--accent); margin-bottom: 10px; }
+    header p { font-size: 1.2rem; opacity: 0.9; }
+    .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
+    section { margin-bottom: 50px; animation: fadeIn 1s ease; }
+    section h2 { font-size: 1.8rem; margin-bottom: 15px; color: #00ffcc; position: relative; }
+    section h2::after { content: ''; width: 60px; height: 3px; background: var(--accent); display: block; margin-top: 5px; }
+    ul { list-style: none; }
+    ul li { padding-left: 1.4em; position: relative; margin-bottom: 10px; }
+    ul li::before { content: '➤'; position: absolute; left: 0; color: var(--accent); }
+    .testimonial { background: var(--sec-bg); border-left: 4px solid var(--accent); padding: 20px; margin: 15px 0; font-style: italic; }
+    .cta-button { display: inline-block; margin-top: 20px; padding: 15px 30px; background: var(--accent); color: var(--bg); font-weight: 600; border-radius: 4px; transition: background .3s; }
+    .cta-button:hover { background: #00cc80; }
+    footer { background: var(--sec-bg); text-align: center; padding: 20px; font-size: 0.9rem; color: #888;}
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      section h2 { font-size: 1.5rem; }
+    }
+    /* Fade in animation */
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(15px);} to { opacity: 1; transform: translateY(0);} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Venono Editing Course</h1>
+    <p>Unleash Your Creative Editing Potential 🎥</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Why Learn Editing?</h2>
+      <p>Video editing is one of today's most in‑demand skills. From YouTube to cinematic projects, editors bring stories to life. Our course simplifies your journey with step‑by‑step tutorials, LUT packs, effects & subscription packs—everything you need to start editing with confidence.</p>
+    </section>
+
+    <section>
+      <h2>What You'll Learn</h2>
+      <ul>
+        <li>Adobe Premiere Pro Essentials</li>
+        <li>Color Grading & Correction</li>
+        <li>Sound Design & Syncing</li>
+        <li>Transitions & Effects</li>
+        <li>Editing for YouTube, Reels & Shorts</li>
+        <li>Exporting & Rendering Settings</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Course Modules</h2>
+      <ul>
+        <li>🎬 Module 1: Editing Theory & Timeline Basics</li>
+        <li>🎨 Module 2: Color Science & LUT Workflows</li>
+        <li>🔊 Module 3: Audio Mastery with SFX & Music</li>
+        <li>💥 Module 4: Cinematic Transitions & Speed Ramps</li>
+        <li>📲 Module 5: Social Media Optimization</li>
+        <li>🚀 Final Project: Build a Full Video Edit</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Student Testimonials</h2>
+      <div class="testimonial">"Venono's course helped me land freelance editing gigs! Super beginner‑friendly." – Shriyansh</div>
+      <div class="testimonial">"I had no editing experience before. Now I’m editing full videos for my channel!" – Zack</div>
+    </section>
+
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Email us at: <strong><a href="mailto:svenono28@gmail.com">svenono28@gmail.com</a></strong></p>
+      <p>Follow on Instagram: <strong><a href="https://instagram.com/venono._7" target="_blank">@venono._7</a></strong></p>
+      <a class="cta-button" href="#">Enroll Now</a>
+    </section>
+  </div>
+
+  <footer>&copy; 2025 Venono Editing Course. All rights reserved.</footer>
+</body>
+</html>
